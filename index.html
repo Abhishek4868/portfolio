@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+    <!-- animate style -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <!-- navigation bar --> 
+        <nav>
+            <!-- logo -->
+            <img class="logo" src="./images/logo.png" alt="">
+            <!-- links -->
+            <ul>
+                <li class="list-items"><a class="link" href="">Home</a></li>
+                <li class="list-items"><a class="link" href="">About</a></li>
+                <li class="list-items"><a class="link" href="">Skill</a></li>
+                <li class="list-items"><a class="link" href="">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- home -->
+        <section id="home">
+            <!-- home content -->
+            <div class="homecontent">
+                <h1 class="animate__animated animate__wobble" id="username">I'm Abhishek <span id="lastname">K</span></h1>
+                <p id="userdetails">This is my official portfolio website to describe all <br> Details and work
+                    experience in Web Development
+                </p>
+                <a id="download" href="./images/Semester Grade Card (Generated on 05_09_2024 03_13 PM).pdf"
+                    download>Download
+                    CV</a>
+
+                <!-- home image -->
+                <div class="homeimage">
+                    <img id="shape" class="group1" src="./images/yellow-removebg.png" alt="shape">
+                    <img id="girl" class="group1" src="./images/girl-removebg.png" alt="girl">
+                </div>
+            </div>
+        </section>
+        <br><br><br><br>
+        <!-- about -->
+        <section id="about">
+            <div class="sectionhead">
+                <h2 class="mainhead">About Me</h2>
+                <span class="subhead">Introduction</span>
+            </div>
+            <div class="aboutbody">       
+            <div data-aos="fade-right" class="aboutimage">
+                <img class="img1" src="./images/businessmanremovebg.png" alt="no image">
+            </div>
+            <div class="aboutcontent">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, rerum. Asperiores provident fugiat
+                    suscipit adipisci cum rerum expedita porro officia hic saepe, nobis sequi soluta quisquam eum iure
+                    dolorum quibusdam.</p>
+                    <div class="informations">
+                        <div class="infobox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Abhishek K</span>
+                        </div>
+                        <div class="infobox">
+                                <i class="fa-solid fa-phone"></i>
+                                <span>1234567890</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>abhishek12@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br><br><br><br>
+        <!-- skills -->
+                 <section id="skills">
+                    <div class="sectionhead">
+                        <h2 class="mainhead">Skills</h2>
+                        <span class="subhead">My skills</span>
+                    </div>
+                    <div class="skillcontent">
+                        <div class="progressbars">
+                            <div class="bars">
+                                <h3 class="barhead">HTML</h3>
+                                <span class="barpercent">89%</span>
+                                <div class="basebar"></div>
+                                <div class="basebar htmlbar"></div>
+                            </div>
+                            <div class="bars">
+                                <h3 class="barhead">JAVA</h3>
+                                <span class="barpercent">70%</span>
+                                <div class="basebar"></div>
+                                <div class="basebar javabar"></div>
+                            </div>
+                            <div class="bars">
+                                <h3 class="barhead">CSS</h3>
+                                <span class="barpercent">90%</span>
+                                <div class="basebar"></div>
+                                <div class="basebar cssbar"></div>
+                            </div>
+                            <div class="bars">
+                                <h3 class="barhead">REACT</h3>
+                                <span class="barpercent">65%</span>
+                                <div class="basebar"></div>
+                                <div class="basebar reactbar"></div>
+                            </div>
+                        </div>
+                        <div data-aos="fade-left" class="skillimage">
+                            <img width="100%" class="myskill" src="./images/essential-skills.jpg" alt="">
+                        </div>
+                    </div>
+                 </section>
+        <!-- contact -->
+        <section id="contact">
+            <div class="sectionhead">
+                <h2 class="mainhead">Contacts</h2>
+                <span class="subhead">My Contacts</span>
+            </div>
+            <div class="iconcollection">
+                <!-- linked in -->
+                 <div class="icon">
+                    <a href="https://www.linkedin.com/in/abhishek-k-a15848204/" target="_blank"><i class="fa-brands fa-linkedin-in brands"></i></a>
+                 </div>
+                 <!-- github -->
+                 <div class="icon">
+                    <a href="https://www.linkedin.com/in/abhishek-k-a15848204/" target="_blank "><i class="fa-brands fa-github brands"></i></a>
+                 </div>
+                  <!-- instagram -->
+                  <div class="icon">
+                    <a href="https://www.linkedin.com/in/abhishek-k-a15848204/" target="_blank"><i class="fa-brands fa-instagram brands"></i></a>
+                 </div>
+                   <!-- facebook -->
+                   <div class="icon">
+                    <a href="https://www.linkedin.com/in/abhishek-k-a15848204/" target="_blank"><i class="fa-brands fa-facebook-f brands"></i></a>
+                 </div>
+                    <!-- twitter -->
+                    <div class="icon">
+                        <a href="https://www.linkedin.com/in/abhishek-k-a15848204/" target="_blank "><i class="fa-brands fa-twitter brands"></i></a>
+                     </div>
+                     <!-- whatsapp -->
+                     <div class="icon">
+                        <a href="https://www.linkedin.com/in/abhishek-k-a15848204/" target="_blank"><i class="fa-brands fa-whatsapp brands"></i></a>
+                     </div>
+            </div>
+        </section>
+        <!-- footer -->
+         <footer>
+            <p id="copyright">&copy; 2024 Abhishek K. All Rights Reserved.</p>
+            <div class="icon uparrow">
+                <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+             </div>
+         </footer>
+    </div>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+
+</html>
